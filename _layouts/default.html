@@ -22,6 +22,14 @@
 				</ul>
 			</footer>
 		</body>
+		<form action="https://getsimpleform.com/messages?form_api_token=aea2db4234ba59b0049ae7d27dfdda73" method="post">
+		  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+		  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+		  <!-- all your input fields here.... -->
+		  <input type='text' name='test' />
+		  <input type='submit' value='Test form' />
+		</form>
+      
 		<ul class="posts">
 		  {% for post in site.posts %}
 		    <li><span>{{ post.date | date_to_string }}</span> -- <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
