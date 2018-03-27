@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: ab
+title: Contact
 ---
 Subscribe using the form below:
 
